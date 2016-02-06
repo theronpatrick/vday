@@ -1,0 +1,97 @@
+$purple: #B22AA6; 
+$yellow: #FFE36F;
+$pink: #FF55EF;
+$light-blue: #30CCBD;
+$dark-blue: #33B2A6;
+$peach: #FFFAE0;
+
+html {
+    font-family: 'Kalam', cursive;
+
+    font-size: 30px;
+}
+
+
+[class^="scene"] {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+
+    background-color: $purple;
+
+    z-index: 100;
+
+    .loading-message {
+        position: absolute;
+        top: 45%;
+        left: 35%;
+
+        height: 15%;
+        width: 25%;
+
+        background-color: $peach;
+
+        padding: 30px;
+        text-align: center;
+
+        border-radius: 5px;
+
+        border: 2px solid black;
+
+        box-sizing: border-box;
+
+    }
+}
+
+img {
+    position: absolute;
+}
+
+.text-bubble {
+    position: absolute;
+
+    background-color: white;
+    border: 2px solid black;
+
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+.scene1 {
+    background-color: $yellow;
+
+    img {
+        width: 200px;
+        left: 40%;
+    }
+
+    .text-bubble {
+        top: 20%;
+        left: 60%;
+    }
+    }
+
+
+.scene2 {
+    background-color: $light-blue;
+
+    img {
+        width: 200px;
+        left: 40%;
+    }
+}
+
+.scene3 {
+    background-color: $pink;
+}
