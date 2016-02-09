@@ -5,7 +5,11 @@ $(document).ready(function() {
             scene2: 3000,
             scene3: 6000,
             scene4: 9000,
-            scene5: 12000
+            scene5: 12000,
+            scene6: 15000,
+            scene7: 18000,
+            scene8: 21000,
+            scene9: 24000
         }
     });
 
