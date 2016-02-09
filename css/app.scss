@@ -133,6 +133,33 @@ img {
 
 .scene8 {
     background-color: $light-blue;
+
+    img {
+        max-width: 240px;
+    }
 }
+
+.scene9 {
+    background-color: $purple;
+}
+
+.scene10 {
+    background-color: $yellow;
+
+    img {
+        max-width: 350px;
+    }
+}
+
+.love-you-bold {
+    color: $pink;
+    font-weight: bold;
+}
+
+.scene11 {
+    background-color: $pink;
+}
+
+
 
 

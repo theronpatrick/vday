@@ -105,3 +105,26 @@ img {
 .scene8 {
   background-color: #30ccbd;
 }
+.scene8 img {
+  max-width: 240px;
+}
+
+.scene9 {
+  background-color: #b22aa6;
+}
+
+.scene10 {
+  background-color: #ffe36f;
+}
+.scene10 img {
+  max-width: 350px;
+}
+
+.love-you-bold {
+  color: #ff55ef;
+  font-weight: bold;
+}
+
+.scene11 {
+  background-color: #ff55ef;
+}

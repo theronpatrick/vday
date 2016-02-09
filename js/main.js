@@ -9,7 +9,9 @@ $(document).ready(function() {
             scene6: 15000,
             scene7: 18000,
             scene8: 21000,
-            scene9: 24000
+            scene9: 24000,
+            scene10: 27000,
+            scene11: 30000
         }
     });
 
