@@ -45,6 +45,10 @@ img {
   border-radius: 5px;
   padding: 20px;
 }
+.text-bubble.small {
+  padding: 5px;
+  font-size: 15px;
+}
 
 .scene1 {
   background-color: #ffe36f;
@@ -67,5 +71,22 @@ img {
 }
 
 .scene3 {
-  background-color: #ff55ef;
+  background-color: #b22aa6;
+}
+.scene3 .text-bubble {
+  top: 50%;
+  left: 35%;
+}
+
+.thank-you-bold {
+  font-weight: bold;
+  color: #ffe36f;
+}
+
+.scene4 {
+  background-color: #ffe36f;
+}
+
+.scene5 {
+  background-color: #33b2a6;
 }

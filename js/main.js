@@ -2,8 +2,10 @@ $(document).ready(function() {
     skrollr.init({
         constants: {
             scene1: 0,
-            scene2: 6000,
-            scene3: 9000
+            scene2: 3000,
+            scene3: 6000,
+            scene4: 9000,
+            scene5: 12000
         }
     });
 
@@ -16,8 +18,6 @@ $(document).ready(function() {
         var text = $(".loading-message").text()
         $(".loading-message").text(text + ".");
 
-        console.log("uh")
-
         count++;
         if (count > 3) {
             return;
@@ -28,11 +28,11 @@ $(document).ready(function() {
     
     addDot();
 
-
+    // TODO: Set time higher
     setTimeout(function() {
         // Scroll to top 
         document.body.scrollTop = document.documentElement.scrollTop = 0;
         $("#loading").fadeOut(1000);
-    }, 4000)
+    }, 1)
 
 });

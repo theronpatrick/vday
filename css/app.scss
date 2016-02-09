@@ -66,6 +66,11 @@ img {
     border-radius: 5px;
 
     padding: 20px;
+
+    &.small {
+        padding: 5px;
+        font-size: 15px;
+    }
 }
 
 .scene1 {
@@ -80,7 +85,7 @@ img {
         top: 20%;
         left: 60%;
     }
-    }
+}
 
 
 .scene2 {
@@ -93,5 +98,23 @@ img {
 }
 
 .scene3 {
-    background-color: $pink;
+    background-color: $purple;
+
+    .text-bubble {
+        top: 50%;
+        left: 35%;
+    }
+}
+
+.thank-you-bold {
+    font-weight: bold;
+    color: $yellow;
+}
+
+.scene4 {
+    background-color: $yellow;
+}
+
+.scene5 {
+    background-color: $dark-blue;
 }
