@@ -2,16 +2,16 @@ $(document).ready(function() {
     skrollr.init({
         constants: {
             scene1: 0,
-            scene2: 3000,
-            scene3: 6000,
-            scene4: 9000,
-            scene5: 12000,
-            scene6: 15000,
-            scene7: 18000,
-            scene8: 21000,
-            scene9: 24000,
-            scene10: 27000,
-            scene11: 30000
+            scene2: 4000,
+            scene3: 7000,
+            scene4: 10000,
+            scene5: 13000,
+            scene6: 16000,
+            scene7: 19000,
+            scene8: 22000,
+            scene9: 25000,
+            scene10: 28000,
+            scene11: 31000
         }
     });
 
@@ -39,6 +39,6 @@ $(document).ready(function() {
         // Scroll to top 
         document.body.scrollTop = document.documentElement.scrollTop = 0;
         $("#loading").fadeOut(1000);
-    }, 1)
+    }, 4000)
 
 });
